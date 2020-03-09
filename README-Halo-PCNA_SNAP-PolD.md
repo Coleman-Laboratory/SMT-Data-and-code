@@ -62,3 +62,5 @@ column 14: residence time of colocalized binding event in channel 1
 column 15: residence time of colocalized binding event in channel 2
 
 The sptana data structure is used by sptclst_v24CR.m file to generate maps of hubs(clusters) of binding events. The resulting data structure (sptclst) contains metadata, cluster numbers, locations and Molecular IDs of binding events in clusters.
+
+The sptana data structure is also used by residenceV2_CR to calculate the residence time of molecules bound to the genome. This script determines the average residence time from a histogram of residence times fit with a single exponential model versus a double exponential  model. An F12 value greater than 1 indicates that there is a significant difference between fitting the histogram to a single versus double exponential model. A better fit with the double exponential model indicates at least two populations of molecules present. 
