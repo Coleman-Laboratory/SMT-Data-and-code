@@ -21,7 +21,7 @@ N.A. : 1.49
 PSF Scaling: 1.2
 PSF Std: 1.03 pixels
 Counts/Photon: 20.2
-Lag Time= 1340 ms
+Lag Time= 1340 ms (this value is equivalent to your effective frame imaging rate)
 
 parameters for slimFast_2 Tracking:
 Max. expected Diffusion Coefficient: 0.05 um^2/s
